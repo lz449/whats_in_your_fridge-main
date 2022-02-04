@@ -12,8 +12,8 @@ function Home() {
       <Banner />
 
       <Container maxWidth="sm">
-        <Box sx={{ my: 20,
-              border:"10px solid darkgreen"
+        <Box sx={{ my: 20
+          
           
             }}>
 
