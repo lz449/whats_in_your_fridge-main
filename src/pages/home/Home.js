@@ -4,28 +4,26 @@ import Form from "./components/Form";
 import Container from "@mui/material/Container";
 import { Box } from "@mui/system";
 import Banner from "./components/Banner";
+import Hamburger from "./components/Hamburger";
 
 function Home() {
   return (
     <>
-      {/* <div className="GreenMintBackground.png" /> */}
+      <Hamburger />
       <Banner />
 
       <Container maxWidth="sm">
-        <Box sx={{ my: 20
-          
-          
-            }}>
-
-          { <Heading
-            variant="h2"
-            sx={{
-              my: 9,
-              textAlign: "center",
-              fontSize: 30,
-              
-            }}
-          /> }
+        <Box sx={{ my: 20 }}>
+          {
+            <Heading
+              variant="h2"
+              sx={{
+                my: 9,
+                textAlign: "center",
+                fontSize: 30,
+              }}
+            />
+          }
           <Form />
         </Box>
       </Container>
